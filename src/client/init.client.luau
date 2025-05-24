@@ -4,8 +4,10 @@ local workspace = game:GetService("Workspace")
 local model = workspace.BFS
 local Gui = game:GetService("StarterGui")
 local Workspace = game:GetService("Workspace")
-local part = Workspace.BFS.Porto
 print("Citiontino (Client) " .. ver.version)
+wait(1) -- wait until the porto part reaches to the workspace
+local part = Workspace.BFS.Porto
+
 local text = Gui.ScreenGui.rw
 part.Touched:Connect(function()
 	text.Visible = true
