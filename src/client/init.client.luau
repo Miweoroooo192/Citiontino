@@ -3,7 +3,7 @@ local ver = require(ReplicatedStorage.Shared.Classes.ver)
 local workspace = game:GetService("Workspace")
 local model = workspace.BlueFlagSet
 local Gui = game:GetService("StarterGui")
-local part = model.Porto
+local part = model.Lisbon
 print("Citiontino (Client) " .. ver.version)
 local text = Gui.ScreenGui.rw
 part.Touched:Connect(function()
