@@ -5,7 +5,7 @@ local workspace = game:GetService("Workspace")
 local Gui = game:GetService("StarterGui")
 -- local Workspace = game:GetService("Workspace")
 print("Citiontino (Client) " .. ver.version)
-wait(0.1) -- wait until the porto part reaches to the workspace
+wait(5) -- wait until the porto part reaches to the workspace
 local part = workspace.Porto
 
 local text = Gui.ScreenGui.rw
