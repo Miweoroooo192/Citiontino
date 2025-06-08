@@ -1,5 +1,8 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ver = require(ReplicatedStorage.Shared.Classes.ver)
+local ko = Instance.new("IntValue")
+ko.Parent = ReplicatedStorage
+ko.name = "KOs"
 -- local workspace = game:GetService("Workspace")
 -- local model = workspace
 -- local Gui = game:GetService("StarterGui")
